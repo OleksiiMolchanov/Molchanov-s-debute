@@ -1,0 +1,15 @@
+banana - true
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+14,83,7,25,22,11,28,83,29,34,93,15,24,84,46,78,69,42,99,3,72,43,75,68,92,8,43,5,94,98,97,18,70,56,17,85,36,39,86,68,48,7,73,87,92,84,70,4,41,32 / 12,64,56,39,60,88,66,1,99,57,99,58,59,7,55,50,62,90,71,3,94,97,72,39,29,30,94,88,59,17,77,4,88,51,83,96,28,27,95,53,56,72,9,14,44,77,34,27,43,61,0,11
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+false / 22
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+28,95,59,98,58,34,50,95,42,72,19,30,88,78,20,65,72,92,63,19,36,55,60,85,14,18,23,97,33,59,54,78,61,74,57,25,80,33,90,82,36,63,47,82,43,36,42,59,35,27,18,47,62,32,39,24,44,70,6,24,38,76,15,2,7,85,43,33,5,20,98,11,20,0,42,62,78,88,14,42,28,35,4,24,28,76,74,78,15,96,82,35,99 + true
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+78 + 16
+console.log(getRandomString());
+true - false
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const greet = name => `Hello, ${name}!`;
